@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		213EDE0A259A03400057F3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EDE09259A03400057F3AC /* AppDelegate.swift */; };
+		213EDE0C259A03400057F3AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EDE0B259A03400057F3AC /* SceneDelegate.swift */; };
+		213EDE0E259A03400057F3AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EDE0D259A03400057F3AC /* ViewController.swift */; };
+		213EDE11259A03400057F3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213EDE0F259A03400057F3AC /* Main.storyboard */; };
+		213EDE13259A03420057F3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213EDE12259A03420057F3AC /* Assets.xcassets */; };
+		213EDE16259A03420057F3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213EDE14259A03420057F3AC /* LaunchScreen.storyboard */; };
+		213EDE21259A03420057F3AC /* PlayingCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EDE20259A03420057F3AC /* PlayingCardTests.swift */; };
+		213EDE2C259A03430057F3AC /* PlayingCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EDE2B259A03430057F3AC /* PlayingCardUITests.swift */; };
+		213EDE3E259A3C1E0057F3AC /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EDE3D259A3C1E0057F3AC /* PlayerData.swift */; };
+		213EDE46259A3D310057F3AC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EDE45259A3D310057F3AC /* Card.swift */; };
+		213EDE4F259A40720057F3AC /* WarGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EDE4E259A40720057F3AC /* WarGame.swift */; };
+		213EDE5D259A6F590057F3AC /* CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EDE5C259A6F590057F3AC /* CardTests.swift */; };
+		213EDE65259A75AE0057F3AC /* WarGamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EDE64259A75AE0057F3AC /* WarGamerTests.swift */; };
+		2184F27E259A875400325603 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184F27D259A875400325603 /* GeneratedMocks.swift */; };
+		C2A84AD36FE3A046B30655C8 /* Pods_PlayingCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596E068A01684B406B9118B6 /* Pods_PlayingCard.framework */; };
+		F0E7ACD2095E201D3E64EF01 /* Pods_PlayingCard_PlayingCardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE83EBA1F1FB480F01EC504 /* Pods_PlayingCard_PlayingCardUITests.framework */; };
+		F5D6F77DB97620A59B097107 /* Pods_PlayingCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9289FBD4D350003791A36DF2 /* Pods_PlayingCardTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		213EDE1D259A03420057F3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 213EDDFE259A03400057F3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 213EDE05259A03400057F3AC;
+			remoteInfo = PlayingCard;
+		};
+		213EDE28259A03430057F3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 213EDDFE259A03400057F3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 213EDE05259A03400057F3AC;
+			remoteInfo = PlayingCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B774111D7A59397F95374E5 /* Pods-PlayingCard-PlayingCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayingCard-PlayingCardUITests.release.xcconfig"; path = "Target Support Files/Pods-PlayingCard-PlayingCardUITests/Pods-PlayingCard-PlayingCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		213EDE06259A03400057F3AC /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		213EDE09259A03400057F3AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		213EDE0B259A03400057F3AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		213EDE0D259A03400057F3AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		213EDE10259A03400057F3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		213EDE12259A03420057F3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		213EDE15259A03420057F3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		213EDE17259A03420057F3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213EDE1C259A03420057F3AC /* PlayingCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		213EDE20259A03420057F3AC /* PlayingCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardTests.swift; sourceTree = "<group>"; };
+		213EDE22259A03420057F3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213EDE27259A03430057F3AC /* PlayingCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		213EDE2B259A03430057F3AC /* PlayingCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardUITests.swift; sourceTree = "<group>"; };
+		213EDE2D259A03430057F3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213EDE3D259A3C1E0057F3AC /* PlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
+		213EDE45259A3D310057F3AC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		213EDE4E259A40720057F3AC /* WarGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGame.swift; sourceTree = "<group>"; };
+		213EDE5C259A6F590057F3AC /* CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTests.swift; sourceTree = "<group>"; };
+		213EDE64259A75AE0057F3AC /* WarGamerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGamerTests.swift; sourceTree = "<group>"; };
+		2184F27D259A875400325603 /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
+		39E2AC91244809F2DA427E50 /* Pods-PlayingCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayingCard.release.xcconfig"; path = "Target Support Files/Pods-PlayingCard/Pods-PlayingCard.release.xcconfig"; sourceTree = "<group>"; };
+		4647A9F083CEEA33E2DDC399 /* Pods-PlayingCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayingCardTests.release.xcconfig"; path = "Target Support Files/Pods-PlayingCardTests/Pods-PlayingCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		596E068A01684B406B9118B6 /* Pods_PlayingCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayingCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE83EBA1F1FB480F01EC504 /* Pods_PlayingCard_PlayingCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayingCard_PlayingCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9289FBD4D350003791A36DF2 /* Pods_PlayingCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayingCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99561147AF857D9AEBE6C556 /* Pods-PlayingCard-PlayingCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayingCard-PlayingCardUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlayingCard-PlayingCardUITests/Pods-PlayingCard-PlayingCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABE8676F14CFC612478B0E7B /* Pods-PlayingCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayingCard.debug.xcconfig"; path = "Target Support Files/Pods-PlayingCard/Pods-PlayingCard.debug.xcconfig"; sourceTree = "<group>"; };
+		C93FB0A59317F96C66CBD37F /* Pods-PlayingCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayingCardTests.debug.xcconfig"; path = "Target Support Files/Pods-PlayingCardTests/Pods-PlayingCardTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		213EDE03259A03400057F3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A84AD36FE3A046B30655C8 /* Pods_PlayingCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		213EDE19259A03420057F3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D6F77DB97620A59B097107 /* Pods_PlayingCardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		213EDE24259A03430057F3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E7ACD2095E201D3E64EF01 /* Pods_PlayingCard_PlayingCardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213EDDFD259A03400057F3AC = {
+			isa = PBXGroup;
+			children = (
+				213EDE08259A03400057F3AC /* PlayingCard */,
+				213EDE1F259A03420057F3AC /* PlayingCardTests */,
+				213EDE2A259A03430057F3AC /* PlayingCardUITests */,
+				213EDE07259A03400057F3AC /* Products */,
+				7381098DE36D20B543168DC7 /* Pods */,
+				F3880ED01F3FF5D341781290 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		213EDE07259A03400057F3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				213EDE06259A03400057F3AC /* PlayingCard.app */,
+				213EDE1C259A03420057F3AC /* PlayingCardTests.xctest */,
+				213EDE27259A03430057F3AC /* PlayingCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		213EDE08259A03400057F3AC /* PlayingCard */ = {
+			isa = PBXGroup;
+			children = (
+				213EDE4D259A40600057F3AC /* engine */,
+				213EDE3C259A3BFD0057F3AC /* data */,
+				213EDE09259A03400057F3AC /* AppDelegate.swift */,
+				213EDE0B259A03400057F3AC /* SceneDelegate.swift */,
+				213EDE0D259A03400057F3AC /* ViewController.swift */,
+				213EDE0F259A03400057F3AC /* Main.storyboard */,
+				213EDE12259A03420057F3AC /* Assets.xcassets */,
+				213EDE14259A03420057F3AC /* LaunchScreen.storyboard */,
+				213EDE17259A03420057F3AC /* Info.plist */,
+			);
+			path = PlayingCard;
+			sourceTree = "<group>";
+		};
+		213EDE1F259A03420057F3AC /* PlayingCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				2184F27D259A875400325603 /* GeneratedMocks.swift */,
+				213EDE20259A03420057F3AC /* PlayingCardTests.swift */,
+				213EDE5C259A6F590057F3AC /* CardTests.swift */,
+				213EDE22259A03420057F3AC /* Info.plist */,
+				213EDE64259A75AE0057F3AC /* WarGamerTests.swift */,
+			);
+			path = PlayingCardTests;
+			sourceTree = "<group>";
+		};
+		213EDE2A259A03430057F3AC /* PlayingCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				213EDE2B259A03430057F3AC /* PlayingCardUITests.swift */,
+				213EDE2D259A03430057F3AC /* Info.plist */,
+			);
+			path = PlayingCardUITests;
+			sourceTree = "<group>";
+		};
+		213EDE3C259A3BFD0057F3AC /* data */ = {
+			isa = PBXGroup;
+			children = (
+				213EDE3D259A3C1E0057F3AC /* PlayerData.swift */,
+				213EDE45259A3D310057F3AC /* Card.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		213EDE4D259A40600057F3AC /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				213EDE4E259A40720057F3AC /* WarGame.swift */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		7381098DE36D20B543168DC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8676F14CFC612478B0E7B /* Pods-PlayingCard.debug.xcconfig */,
+				39E2AC91244809F2DA427E50 /* Pods-PlayingCard.release.xcconfig */,
+				99561147AF857D9AEBE6C556 /* Pods-PlayingCard-PlayingCardUITests.debug.xcconfig */,
+				0B774111D7A59397F95374E5 /* Pods-PlayingCard-PlayingCardUITests.release.xcconfig */,
+				C93FB0A59317F96C66CBD37F /* Pods-PlayingCardTests.debug.xcconfig */,
+				4647A9F083CEEA33E2DDC399 /* Pods-PlayingCardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3880ED01F3FF5D341781290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				596E068A01684B406B9118B6 /* Pods_PlayingCard.framework */,
+				6DE83EBA1F1FB480F01EC504 /* Pods_PlayingCard_PlayingCardUITests.framework */,
+				9289FBD4D350003791A36DF2 /* Pods_PlayingCardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		213EDE05259A03400057F3AC /* PlayingCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 213EDE30259A03430057F3AC /* Build configuration list for PBXNativeTarget "PlayingCard" */;
+			buildPhases = (
+				228741C0F0A145186F29CF8D /* [CP] Check Pods Manifest.lock */,
+				213EDE02259A03400057F3AC /* Sources */,
+				213EDE03259A03400057F3AC /* Frameworks */,
+				213EDE04259A03400057F3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayingCard;
+			productName = PlayingCard;
+			productReference = 213EDE06259A03400057F3AC /* PlayingCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		213EDE1B259A03420057F3AC /* PlayingCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 213EDE33259A03430057F3AC /* Build configuration list for PBXNativeTarget "PlayingCardTests" */;
+			buildPhases = (
+				E0D8D34D367EEBD998079EC9 /* [CP] Check Pods Manifest.lock */,
+				21C84CC5259A8068003424A3 /* ShellScript */,
+				213EDE18259A03420057F3AC /* Sources */,
+				213EDE19259A03420057F3AC /* Frameworks */,
+				213EDE1A259A03420057F3AC /* Resources */,
+				EF1A890446D7ABA8AEBD8EC7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				213EDE1E259A03420057F3AC /* PBXTargetDependency */,
+			);
+			name = PlayingCardTests;
+			productName = PlayingCardTests;
+			productReference = 213EDE1C259A03420057F3AC /* PlayingCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		213EDE26259A03430057F3AC /* PlayingCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 213EDE36259A03430057F3AC /* Build configuration list for PBXNativeTarget "PlayingCardUITests" */;
+			buildPhases = (
+				9058881A962F56ED4593A091 /* [CP] Check Pods Manifest.lock */,
+				213EDE23259A03430057F3AC /* Sources */,
+				213EDE24259A03430057F3AC /* Frameworks */,
+				213EDE25259A03430057F3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				213EDE29259A03430057F3AC /* PBXTargetDependency */,
+			);
+			name = PlayingCardUITests;
+			productName = PlayingCardUITests;
+			productReference = 213EDE27259A03430057F3AC /* PlayingCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		213EDDFE259A03400057F3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					213EDE05259A03400057F3AC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					213EDE1B259A03420057F3AC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 213EDE05259A03400057F3AC;
+					};
+					213EDE26259A03430057F3AC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 213EDE05259A03400057F3AC;
+					};
+				};
+			};
+			buildConfigurationList = 213EDE01259A03400057F3AC /* Build configuration list for PBXProject "PlayingCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 213EDDFD259A03400057F3AC;
+			productRefGroup = 213EDE07259A03400057F3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				213EDE05259A03400057F3AC /* PlayingCard */,
+				213EDE1B259A03420057F3AC /* PlayingCardTests */,
+				213EDE26259A03430057F3AC /* PlayingCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		213EDE04259A03400057F3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213EDE16259A03420057F3AC /* LaunchScreen.storyboard in Resources */,
+				213EDE13259A03420057F3AC /* Assets.xcassets in Resources */,
+				213EDE11259A03400057F3AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		213EDE1A259A03420057F3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		213EDE25259A03430057F3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21C84CC5259A8068003424A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Define output file. Change \"${PROJECT_DIR}/${PROJECT_NAME}Tests\" to your test's root source folder, if it's not the default name.\nOUTPUT_FILE=\"${PROJECT_DIR}/${PROJECT_NAME}Tests/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n# Define input directory. Change \"${PROJECT_DIR}/${PROJECT_NAME}\" to your project's root source folder, if it's not the default name.\nINPUT_DIR=\"${PROJECT_DIR}/${PROJECT_NAME}\"\necho \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n\"${PODS_ROOT}/Cuckoo/run\" generate --testable \"${PROJECT_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/engine/WarGame.swift\" \n# ... and so forth, the last line should never end with a backslash\n\n# After running once, locate `GeneratedMocks.swift` and drag it into your Xcode test target group.\n";
+		};
+		228741C0F0A145186F29CF8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayingCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9058881A962F56ED4593A091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayingCard-PlayingCardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D8D34D367EEBD998079EC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayingCardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF1A890446D7ABA8AEBD8EC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayingCardTests/Pods-PlayingCardTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayingCardTests/Pods-PlayingCardTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayingCardTests/Pods-PlayingCardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		213EDE02259A03400057F3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213EDE0E259A03400057F3AC /* ViewController.swift in Sources */,
+				213EDE0A259A03400057F3AC /* AppDelegate.swift in Sources */,
+				213EDE46259A3D310057F3AC /* Card.swift in Sources */,
+				213EDE3E259A3C1E0057F3AC /* PlayerData.swift in Sources */,
+				213EDE4F259A40720057F3AC /* WarGame.swift in Sources */,
+				213EDE0C259A03400057F3AC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		213EDE18259A03420057F3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213EDE65259A75AE0057F3AC /* WarGamerTests.swift in Sources */,
+				213EDE21259A03420057F3AC /* PlayingCardTests.swift in Sources */,
+				213EDE5D259A6F590057F3AC /* CardTests.swift in Sources */,
+				2184F27E259A875400325603 /* GeneratedMocks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		213EDE23259A03430057F3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213EDE2C259A03430057F3AC /* PlayingCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		213EDE1E259A03420057F3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 213EDE05259A03400057F3AC /* PlayingCard */;
+			targetProxy = 213EDE1D259A03420057F3AC /* PBXContainerItemProxy */;
+		};
+		213EDE29259A03430057F3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 213EDE05259A03400057F3AC /* PlayingCard */;
+			targetProxy = 213EDE28259A03430057F3AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		213EDE0F259A03400057F3AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				213EDE10259A03400057F3AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		213EDE14259A03420057F3AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				213EDE15259A03420057F3AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		213EDE2E259A03430057F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		213EDE2F259A03430057F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		213EDE31259A03430057F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE8676F14CFC612478B0E7B /* Pods-PlayingCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iblis-ms.PlayingCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		213EDE32259A03430057F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E2AC91244809F2DA427E50 /* Pods-PlayingCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iblis-ms.PlayingCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		213EDE34259A03430057F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93FB0A59317F96C66CBD37F /* Pods-PlayingCardTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iblis-ms.PlayingCardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayingCard.app/PlayingCard";
+			};
+			name = Debug;
+		};
+		213EDE35259A03430057F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4647A9F083CEEA33E2DDC399 /* Pods-PlayingCardTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iblis-ms.PlayingCardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayingCard.app/PlayingCard";
+			};
+			name = Release;
+		};
+		213EDE37259A03430057F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99561147AF857D9AEBE6C556 /* Pods-PlayingCard-PlayingCardUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iblis-ms.PlayingCardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayingCard;
+			};
+			name = Debug;
+		};
+		213EDE38259A03430057F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B774111D7A59397F95374E5 /* Pods-PlayingCard-PlayingCardUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iblis-ms.PlayingCardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayingCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		213EDE01259A03400057F3AC /* Build configuration list for PBXProject "PlayingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213EDE2E259A03430057F3AC /* Debug */,
+				213EDE2F259A03430057F3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		213EDE30259A03430057F3AC /* Build configuration list for PBXNativeTarget "PlayingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213EDE31259A03430057F3AC /* Debug */,
+				213EDE32259A03430057F3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		213EDE33259A03430057F3AC /* Build configuration list for PBXNativeTarget "PlayingCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213EDE34259A03430057F3AC /* Debug */,
+				213EDE35259A03430057F3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		213EDE36259A03430057F3AC /* Build configuration list for PBXNativeTarget "PlayingCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213EDE37259A03430057F3AC /* Debug */,
+				213EDE38259A03430057F3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 213EDDFE259A03400057F3AC /* Project object */;
+}

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C3F5B9A9-995D-4BA3-8F27-DD977A72BB17"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E75BC936-FC8C-4163-85EF-A093EE71A8CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayingCardTests/WarGamerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "testWarGame()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E75BC936-FC8C-4163-85EF-A093EE71A8CE - 7ac6e032f2a9d526"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayingCardTests.WarGameTests.testWarGame() -&gt; ()"
+                  moduleName = "PlayingCardTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iblis/workspaces/tracked/ios_android/ios/PlayingCard/PlayingCardTests/WarGamerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "E75BC936-FC8C-4163-85EF-A093EE71A8CE - bdb65ee109bb11df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PlayingCardTests.MockWarGameListener.__StubbingProxy_WarGameListener) -&gt; () in PlayingCardTests.WarGameTests.testWarGame() -&gt; ()"
+                  moduleName = "PlayingCardTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iblis/workspaces/tracked/ios_android/ios/PlayingCard/PlayingCardTests/WarGamerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB4EB1F2-B3FF-4431-81E8-2B6B3CE07255"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayingCardTests/WarGamerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "testWarGame()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB4EB1F2-B3FF-4431-81E8-2B6B3CE07255 - bdb65ee109bb1ea1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PlayingCardTests.MockWarGameListener.__StubbingProxy_WarGameListener) -&gt; () in PlayingCardTests.WarGameTests.testWarGame() -&gt; ()"
+                  moduleName = "PlayingCardTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iblis/workspaces/tracked/ios_android/ios/PlayingCard/PlayingCardTests/WarGamerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "DB4EB1F2-B3FF-4431-81E8-2B6B3CE07255 - 211c32205014b27a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((PlayingCard.Card, Swift.Int, PlayingCard.Card, Swift.Int)) -&gt; () in closure #1 (PlayingCardTests.MockWarGameListener.__StubbingProxy_WarGameListener) -&gt; () in PlayingCardTests.WarGameTests.testWarGame() -&gt; ()"
+                  moduleName = "PlayingCardTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iblis/workspaces/tracked/ios_android/ios/PlayingCard/PlayingCardTests/WarGamerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "117">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DEA9A49-2C01-4EA9-8F46-C4EDD78166A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayingCardTests/WarGamerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "testWarGame()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A34F82ED-7E4C-41DB-B68C-7333EA878810"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayingCardTests/WarGamerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "testWarGame()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9300229B-5D52-4E7E-A2A7-2947A97BAB10"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayingCardUITests/PlayingCardUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59053160-DA22-4B01-B0EC-62E63F4534DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayingCardUITests/PlayingCardUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
